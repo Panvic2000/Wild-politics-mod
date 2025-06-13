@@ -1,0 +1,6 @@
+spriteTypes = {			
+	spriteType = {
+		name = "GFX_neron_small"
+		texturefile = "gfx/interface/ideas/RPR/RPR_neron_small.tga"
+	}
+}

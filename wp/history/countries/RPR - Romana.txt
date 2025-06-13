@@ -16,13 +16,24 @@ set_technology = {
 
 set_convoys = 5
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	neutrality = 100
 }
+
+
+recruit_character = RPR_putid
+recruit_character = RPR_rubrii
+recruit_character = RPR_servia
+recruit_character = RPR_neron
+
+
+create_country_leader = {
+	name = "Servia"
+	desc = ""
+	picture = GFX_servia
+	ideology = conservatism
+	traits = {
+		consul_of_RPR
+	}
+}
+

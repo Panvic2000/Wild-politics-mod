@@ -1,0 +1,30 @@
+spriteTypes = {			
+	spriteType = {
+		name = "GFX_putid"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_putid.dds"
+	}
+	spriteType = {
+		name = "GFX_neron"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_neron.dds"
+	}
+	spriteType = {
+		name = "GFX_mitria"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_mitria.dds"
+	}
+	spriteType = {
+		name = "GFX_rubrii"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_rubrii.dds"
+	}
+	spriteType = {
+		name = "GFX_albinii"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_albinii.dds"
+	}
+	spriteType = {
+		name = "GFX_servia"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_servia.dds"
+	}
+	spriteType = {
+		name = "GFX_div"
+		texturefile = "gfx/leaders/RPR/portrait_RPR_div.dds"
+	}
+}

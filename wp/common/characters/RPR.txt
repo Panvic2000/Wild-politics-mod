@@ -1,0 +1,53 @@
+characters = {
+	RPR_rubrii = {
+		name = RPR_rubrii
+		portraits = {
+			civilian = {
+				large = GFX_rubrii
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			id = -1
+			traits = { commando centurio }
+		}
+	}
+	RPR_servia = {
+		name = RPR_servia
+		portraits = {
+			civilian = {
+				large = GFX_servia
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1"
+			id = -1
+			traits = { consul_of_RPR }
+		}
+	}
+	RPR_neron = {
+		name = RPR_neron
+		portraits = {
+			civilian = {
+				large = GFX_neron
+			}
+			army = {
+				small = GFX_neron_small
+			}
+		}
+		advisor = {
+			coast = 140
+			slot = political_advisor
+			idea_token = RPR_neron
+			ledger = civilian
+			can_be_fired = no
+			allowed = {original_tag = RPR}
+			traits = { stabilizer_and_reformer }
+		}
+	}
+}
